@@ -55,17 +55,17 @@ Open-source intelligence collection for recon and investigations, and turning ra
 | Project | What it is | Status |
 | --- | --- | --- |
 | **[cybersecurity-roadmap-2026](https://github.com/tariqsumatri82/cybersecurity-roadmap-2026)** | A complete step-by-step roadmap to become a cybersecurity professional, from zero to job ready. Free resources included. | Live and maintained |
-| **[ghostrecon-ai](https://github.com/tariqsumatri82/ghostrecon-ai)** | A local OSINT username checker: one command, no install step, reporting whether a username exists on a set of public platforms. Python standard library only. | **In active development — code written and tested locally, no installable release yet** |
+| **[ghostrecon-ai](https://github.com/tariqsumatri82/ghostrecon-ai)** | A local OSINT username checker: one command, no install step, reporting whether a username exists on a set of public platforms. Python standard library only. | **Live — clone it and run it today: 52 platform checks, verified against the live web** |
 
 `cybersecurity-roadmap-2026` is the project people have actually picked up: **15 stars and 5 forks**, with 13 topic tags covering cybersecurity, ethical hacking, Linux, networking and penetration testing. Those are the current real numbers at the time of writing, not a projection.
 
-`ghostrecon-ai` is no longer a placeholder. The tool is written, run and tested locally: every platform check was verified against the live web, and the unit test suite passes. It has not been published to the repository yet, so there is still nothing for you to clone or install — watch it if you want to catch the first release.
+`ghostrecon-ai` is live and runnable today. It checks a username against **52 platforms whose checks were each verified against the live internet** — a check only ships if it says "not found" for random probe usernames and "found" for known-good ones. Clone the repository and run `python3 ghostrecon.py -u <username>`: no install step, Python standard library only, and the README shows real captured output from an actual run. Where a platform answers inconclusively it reports `unknown` rather than guessing.
 
 ---
 
 ## Currently working on
 
-- **Shipping `ghostrecon-ai`** — now a real tool rather than a concept: a Python command-line username checker with no install step, platform checks verified against the live web, and a passing test suite. What remains is publication: the code and the first tagged release are the next step, so at this moment there is still no installable release.
+- **Shipping `ghostrecon-ai`** — live on GitHub and runnable right now: a Python command-line username checker with no install step, 52 platform checks verified against the live web, and 21 unit tests passing. Next steps are wider verified coverage and a first tagged release; neither is needed to use it today.
 - **Expanding `cybersecurity-roadmap-2026`** — keeping the roadmap current as tooling and certification paths change, and adding the free resources that go with each stage.
 - **Writing down what I already do** — practical notes on cloud hardening, network security and OSINT technique, published as they are finished.
 
@@ -74,7 +74,7 @@ Open-source intelligence collection for recon and investigations, and turning ra
 ## Where to start
 
 - **New to cybersecurity and want a path?** Start with [`cybersecurity-roadmap-2026`](https://github.com/tariqsumatri82/cybersecurity-roadmap-2026) — it is ordered from the fundamentals up, and the resources are free.
-- **Working in OSINT or recon?** Watch [`ghostrecon-ai`](https://github.com/tariqsumatri82/ghostrecon-ai) for the first release. The code is written and tested; publication is what is pending.
+- **Working in OSINT or recon?** [`ghostrecon-ai`](https://github.com/tariqsumatri82/ghostrecon-ai) is ready to clone and run now — one command, no install, Python standard library only, honest `found` / `not found` / `unknown` results.
 - **Need help hardening something you already run?** Open an issue on either repository and describe the environment.
 
 ---

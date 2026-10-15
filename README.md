@@ -65,7 +65,7 @@ Open-source intelligence collection for recon and investigations, and turning ra
 
 ## Currently working on
 
-- **Shipping `ghostrecon-ai`** — live on GitHub and runnable right now: a Python command-line username checker with no install step, 122 platform checks verified against the live web, and 21 unit tests passing. Next steps are wider verified coverage and a first tagged release; neither is needed to use it today.
+- **Shipping `ghostrecon-ai`** — live on GitHub and runnable right now: a Python command-line username checker with no install step, 122 platform checks verified against the live web, and 23 unit tests passing. Next steps are wider verified coverage and a first tagged release; neither is needed to use it today.
 - **Expanding `cybersecurity-roadmap-2026`** — keeping the roadmap current as tooling and certification paths change, and adding the free resources that go with each stage.
 - **Writing down what I already do** — practical notes on cloud hardening, network security and OSINT technique, published as they are finished.
 

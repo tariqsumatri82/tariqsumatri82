@@ -1,6 +1,6 @@
 # Tariq Sumatri
 
-**Cybersecurity Consultant — Cloud Security · Network Security · OS Hardening · OSINT & Threat Intelligence**
+**Cybersecurity Consultant Cloud Security · Network Security · OS Hardening · OSINT & Threat Intelligence**
 
 IT Specialist and Cybersecurity Consultant with 15+ years of hands-on experience across cloud, operating system and network security. Cisco and Google certified. I harden infrastructure, reduce risk, and keep systems up.
 

@@ -56,6 +56,7 @@ Open-source intelligence collection for recon and investigations, and turning ra
 | --- | --- | --- |
 | **[cybersecurity-roadmap-2026](https://github.com/tariqsumatri82/cybersecurity-roadmap-2026)** | A complete step-by-step roadmap to become a cybersecurity professional, from zero to job ready. Free resources included. | Live and maintained |
 | **[ghostrecon-ai](https://github.com/tariqsumatri82/ghostrecon-ai)** | A local OSINT username checker: one command, no install step, reporting whether a username exists on a set of public platforms. Python standard library only. | **Live — clone it and run it today: 122 platform checks, verified against the live web** |
+| **[Hack-with-Github](https://github.com/tariqsumatri82/Hack-with-Github)** | `ghaudit` — a GitHub Actions workflow security auditor. Reads `.github/workflows/*.yml` and flags the seven patterns behind real supply-chain and script-injection incidents, from unpinned actions to `${{ }}` interpolated into a shell step. Python standard library only, and it never executes a workflow or touches the network. | **Live — `ghaudit` 0.1.0: 7 checks (GHA01–GHA07), 65 tests passing, CI green on `main`** |
 
 `cybersecurity-roadmap-2026` is the project people have actually picked up: **15 stars and 5 forks**, with 13 topic tags covering cybersecurity, ethical hacking, Linux, networking and penetration testing. Those are the current real numbers at the time of writing, not a projection.
 
@@ -66,6 +67,7 @@ Open-source intelligence collection for recon and investigations, and turning ra
 ## Currently working on
 
 - **Shipping `ghostrecon-ai`** — live on GitHub and runnable right now: a Python command-line username checker with no install step, 122 platform checks verified against the live web, and 23 unit tests passing. Next steps are wider verified coverage and a first tagged release; neither is needed to use it today.
+- **Shipping `ghaudit`** — the GitHub Actions workflow security auditor, now live in [`Hack-with-Github`](https://github.com/tariqsumatri82/Hack-with-Github) (being renamed to `gha-security-auditor`): Python standard library only, no install step, 7 checks (GHA01–GHA07) covering unpinned actions, `pull_request_target` with a pull-request-head checkout, `${{ }}` interpolated into `run:`, over-scoped token permissions, self-hosted runners on public repositories, secrets in reach of untrusted code and outsider-drivable triggers. `0.1.0` is merged (PR #1) with 65 tests passing and CI green on `main`; the next step is widening pattern coverage as it meets real workflows, not a promise that it catches everything.
 - **Expanding `cybersecurity-roadmap-2026`** — keeping the roadmap current as tooling and certification paths change, and adding the free resources that go with each stage.
 - **Writing down what I already do** — practical notes on cloud hardening, network security and OSINT technique, published as they are finished.
 
@@ -102,4 +104,4 @@ The best place to start is GitHub — issues and pull requests on any repository
 
 Everything published on this profile is free to use, and anything I claim about a project is something you can check in the repository itself. Projects that are still in progress say so. If a number appears next to a project, it is the real one at the time of writing.
 
-Two other repositories on this account are empty placeholders. They are not listed above because there is nothing in them yet — they are either being built out or will be removed. Nothing here is presented as finished when it is not.
+One other repository on this account is still an empty placeholder. It is not listed above because there is nothing in it yet — it is either being built out or will be removed. Nothing here is presented as finished when it is not.
